@@ -1,0 +1,93 @@
+
+body {
+	background-color: white;
+	margin: 0px;
+}
+.mh{
+	height: 120px;
+	width: 100%;
+	background-color: #242121;
+}
+
+.one{
+	overflow: hidden;
+	background-color: #F43030;
+}
+
+ .one a{
+ 	float: left;
+	font-family: Century Gothic;
+	font-weight: bold;
+	color: black;
+	padding: 18px 25px;
+	text-decoration: none;
+	font-size: 140%;
+}
+
+.one a:hover {
+	color: white;
+	background-color: #2E2E31;
+}
+
+.alister{
+	float: left; 
+	font-family: Trebuchet MS; 
+	font-size: 103px;
+	margin: 0px 0px 0px 20px;
+	padding: 0px;
+	color: white;
+}
+
+.english{
+	float: left; 
+	font-family: Trebuchet MS; 
+	font-size: 45px;
+	margin: 15px 0px 0px 30px;
+	padding: 0px;
+	color: white;
+	letter-spacing: 9px;
+}
+
+.acdmy{
+	float: left; 
+	color: white;
+	font-family: Trebuchet MS; 
+	letter-spacing: 5px;
+	font-size: 45px;
+	margin: 55px 0px 0px -240px;
+	padding: 0px;
+}
+
+p.no1{
+	font-family: consolas;
+	float: right;
+	margin: 93px 10px 0px 0px;
+	font-size: 20px;
+	letter-spacing: 2px;
+	color: white;
+}
+
+.bdr{
+	 border-left: 5px slateblue solid;
+	 background-color: #dcd8f3;
+	 padding: 15px;
+	 display: inline-block;
+	 color: black;
+	 width: 50%;
+}
+
+h2, h3 {
+	color: dodgerblue;
+	font-family: Trebuchet MS;
+	margin: 50px;
+}
+
+.ico {
+	margin: 105px;
+	text-decoration: none;
+}
+
+
+
+
+
