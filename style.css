@@ -1,5 +1,11 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+	height: 100%;
 }
 
 body {
@@ -94,18 +100,19 @@ h2, h3 {
 }
 
 .alu {
-	border: 3px solid black;
+	border: 3px solid #164CD4;
 	height: 170px;
 	width: 400px;
-	background-color: #E9EBEC;
-	margin-left: 3%;
+	background-color: #F0F0FF;
+	margin-left: 3.8%;
 	margin-right: 3%;
 	overflow: auto;
 	text-align: center;
 	float: left;
 	margin-top: 2%;
-
-	
+	font-family: Corbel;
+	line-height: 80%;	
+	margin-bottom: 5%;
 }
 
 .alpic{
@@ -116,11 +123,11 @@ h2, h3 {
 
 .ico {
 	text-decoration: none;
-  -moz-transition: transform .2s;
 }
 
-.ico a:hover {
-  -moz-transform: scale(1.5); 
+#map{
+	height:500px;
+	width: 500px;
 }
 
 .homefoot{
@@ -134,16 +141,26 @@ h2, h3 {
 
 
 .foot{
-	height: 50px;
+	height: 80px;
 	width: 100%;
 	position: fixed;
 	bottom: 0;
+	padding-top: 16px;	
 	background-color: #242121; 
 	text-align: center;
 	color: white;
 	font-family: cambria;
 }
 
-
-
+.foot-al{
+	height: 80px;
+	width: 100%;
+	position: relative;
+	bottom: -25px;
+	background-color: #242121; 
+	text-align: center;
+	color: white;
+	font-family: cambria;
+	clear: both;
+}
 
