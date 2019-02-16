@@ -111,7 +111,7 @@ h2, h3 {
 	float: left;
 	margin-top: 2%;
 	font-family: Corbel;
-	line-height: 80%;	
+	line-height: 200%;	
 	margin-bottom: 5%;
 }
 
@@ -125,10 +125,6 @@ h2, h3 {
 	text-decoration: none;
 }
 
-#map{
-	height:500px;
-	width: 500px;
-}
 
 .homefoot{
 	height: 50px;
@@ -145,7 +141,7 @@ h2, h3 {
 	width: 100%;
 	position: fixed;
 	bottom: 0;
-	padding-top: 16px;	
+	padding-top: 32px;	
 	background-color: #242121; 
 	text-align: center;
 	color: white;
@@ -162,5 +158,6 @@ h2, h3 {
 	color: white;
 	font-family: cambria;
 	clear: both;
+	padding-top: 32px;
 }
 
