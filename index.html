@@ -7,6 +7,11 @@
 	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	    <link rel="shortcut icon" type="image/png" href="images/favicon.png">
 	    <link rel="stylesheet" type="text/css" href="style.css">
+	    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	    <style>
+	    	
+	    	.mySlides {display: none;}
+	    </style>
 	</head>
 	<body>
 		<div class="mh">
@@ -24,16 +29,43 @@
 				<a href="alumni.html">Alumni</a>
 				<a href="connect.html">Connect</a>
 				<a href="contact.html">Contact</a>
+				<a href="caution.html" style="float: right; padding: 3px 0 3px 0;"><i class="fa fa-exclamation-triangle fa-lg" aria-hidden="true"></i></a>
 			</div>		
-		<h4 class="bdr">" This Website and Domain name is not affiliated to alister english academy and it is under development and for testing purpose. "<div style="text-align: center; ">&lt; &lt; Go to "CONNECT" tab for Official site &gt; &gt;</div></h4>
+		
+		<p style="font-family: pristina; text-align: center; font-size: 430%; margin: auto; color: #EC1414; background-color: #1D1A1A; border-radius: 100px;margin-left: 7%;margin-right: 7%;margin-top: 1%; padding: 5px;">"speak English within weeks"</p>
 
-		<p style="font-family: pristina; text-align: center; font-size: 430%; margin: auto; color: #EC1414">"speak English within weeks"</p>
+		<div class="w3-content w3-section" style="max-width:700px;">
 
-		<h2>ఆంగ్ల బోధనలో జాతీయ అవార్డు పొందిన సంస్థ 13000+ విద్యార్థులు ఆంగ్లం మాట్లాడడం నేర్చుకున్నారు. 700+ ప్రభుత్వ మరియు ప్రైవేటు రంగాలలో స్థిరపడ్డారు. 19 సంవత్సరాల అనుభవం గల ఉపాద్యాయులు.<br> 
+		  <img class="mySlides" src="images/as3.jpg" style="width:100%">
+		  <img class="mySlides" src="images/as4.jpg" style="width:100%">
+		</div>
+
+		<script>
+		var myIndex = 0;
+		carousel();
+
+		function carousel() {
+		  var i;
+		  var x = document.getElementsByClassName("mySlides");
+		  for (i = 0; i < x.length; i++) {
+		    x[i].style.display = "none";  
+		  }
+		  myIndex++;
+		  if (myIndex > x.length) {myIndex = 1}    
+		  x[myIndex-1].style.display = "block";  
+		  setTimeout(carousel, 3500); // Change image every 3 seconds
+		}
+		</script>
+
+		<div style="height: 415px; width: 370px;margin-left: 1%;margin-top: -28.2%; background-color: #D65555;">
+			<h1 style="font-family: bookman old style;">NATIONAL <br> AWARD <br> WINNER</h1>
+		</div>
+
+		<h2 style="margin-top: 15%;">ఆంగ్ల బోధనలో జాతీయ అవార్డు పొందిన సంస్థ 13000+ విద్యార్థులు ఆంగ్లం మాట్లాడడం నేర్చుకున్నారు. 700+ ప్రభుత్వ మరియు ప్రైవేటు రంగాలలో స్థిరపడ్డారు. 19 సంవత్సరాల అనుభవం గల ఉపాద్యాయులు.<br> 
 			<span style="color: red;"> SPECIAL FEATURES: </span> AIR CONDITIONED CLASS-ROOMS, INTERACTIVE METHOD OF TEACHING, COMMUNICATION SKILLS, PERSONALITY DEVELOPMENT, SOFT SKILLS, GRAMMAR, SPOKEN ENGLISH, INTERVIEW SKILLS, BASIC COMPUTER SKILLS, JOB ORIENTED COURSES, PLACEMENTS GUARANTEED.</h2>
 
-		<div class="homefoot">
-			<p style="padding: 1%; margin: 0">&copy; Alister english academy 2019</p>
+		<div class="foot-al">
+			<p>&copy; Alister english academy 2019</p>
 		</div>
 	    
 

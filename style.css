@@ -31,7 +31,7 @@ body {
 	top: 0;
 }
 
- .one a{
+ .one a,i {
  	float: left;
 	font-family: Century Gothic;
 	font-weight: bold;
@@ -46,6 +46,9 @@ body {
 	background-color: #2E2E31;
 }
 
+.one i:hover{
+	color: red;
+}
 .active{
 	background-color: #2E2E31;
 }
@@ -176,3 +179,5 @@ hr {
 	padding-top: 32px;
 }
 
+.w3-content,.w3-auto{margin-left:auto;margin-right:auto}.w3-content{max-width:980px}.w3-auto{max-width:1140px}
+.w3-section,.w3-code{margin-top:16px!important;margin-bottom:16px!important}
