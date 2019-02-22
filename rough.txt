@@ -3,3 +3,9 @@
 
 		  <img class="mySlides" src="images/as1.jpg" style="width:100%">
 		  <img class="mySlides" src="images/as2.jpg" style="width:100%">
+
+		    img {
+    	pointer-events: none;
+		}
+
+		onContextMenu="return false;"
