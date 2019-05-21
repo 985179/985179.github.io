@@ -482,7 +482,7 @@ body {
 .sdv{
 	/*margin-left: 43%;*/
 	text-align: center; 
-	font-size: 120%;
+	font-size: 1.25vw; /*120%*/
 	font-family: candara; 
 	color: #8B1FD6;
 }
