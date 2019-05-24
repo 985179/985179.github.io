@@ -10,6 +10,15 @@
 
 		onContextMenu="return false;"
 
+	.anticopy{
+		-webkit-user-select: none;
+		-khtml-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		-o-user-select: none;
+		user-select: none;	
+		}
+
 		#example.com/page will display the contents of example.com/page.html
 		RewriteCond %{REQUEST_FILENAME} !-f
 		RewriteCond %{REQUEST_FILENAME} !-d
@@ -19,3 +28,29 @@
 		#301 from example.com/page.html to example.com/page
 		RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /.*\.html\ HTTP/
 		RewriteRule ^(.*)\.html$ /$1 [R=301,L]
+
+
+
+
+
+/* for COMPUTER screens*/ /*This code will run when screen size is  equal or less 750px*/
+
+@media only screen and (max-width: 749px) {
+	h1.hideX{
+		display: none;
+	}
+}
+
+/* for COMPUTER screens*/ /*This code will run when screen size is  equal or above 750px*/
+
+@media only screen and (min-width: 750px) {
+
+	body{
+		background-color: tomato;
+	}
+
+
+
+
+
+}
