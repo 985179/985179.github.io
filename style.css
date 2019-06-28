@@ -536,7 +536,7 @@ a{
 }
 
 .no1{
-	font-family: consolas, lucida console; 
+	font-family: consolas, lucida console, verdana; 
 	float: right;
 	margin: 6.3vw 0.1vw 0 0;
 	font-size: 1.3vw;
