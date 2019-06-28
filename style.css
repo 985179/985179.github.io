@@ -58,7 +58,7 @@ a{
 }
 
 .no1{
-	font-family: lucida console;
+	font-family: consolas, lucida console;
 	font-size: 3vw; /*80%*/
 	letter-spacing: 0.4vw; 
 	margin-top: .5vw; 
