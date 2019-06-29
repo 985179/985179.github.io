@@ -202,7 +202,7 @@ a{
 }
 
 .bfont{
-	font-family: candara light;
+	font-family: candara light, verdana;
 	margin-left:2%;
 	margin-right:2%;
 	text-indent: 18.75vw; /*75px*/
@@ -739,7 +739,7 @@ a{
 }
 
 .hfont{
-	font-family: candara light;
+	font-family: candara light, verdana;
 	margin-left:auto;
 	margin-right:auto;
 	float: none;
