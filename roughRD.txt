@@ -1,0 +1,9 @@
+/* for COMPUTER screens*/ /*This code will run when screen size is  equal or above 992px*/
+
+@media only screen and (min-width: 992px) {
+
+body {
+	background-color: dodgerblue;
+}
+	
+}
